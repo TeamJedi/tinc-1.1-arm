@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sun, 2 Oct 2016 22:06:00 -0400
+Source: tinc
+Binary: tinc tinc-dbg
+Architecture: armhf
+Version: 1.1.14-1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Guus Sliepen <guus@debian.org>
+Changed-By: Ian Blenke <ian@blenke.com>
+Description:
+ tinc       - Virtual Private Network daemon
+ tinc-dbg   - debugging symbols for tinc
+Changes:
+ tinc (1.1.14-1.0) unstable; urgency=medium
+ .
+   * New upstream version.
+Checksums-Sha1:
+ 5d041648af5c75ecf54cc3429ced4c582735970e 375116 tinc_1.1.14-1.0_armhf.deb
+ 2bcd8e57f1f760a9216dcf8ab11a36a28707d24e 856148 tinc-dbg_1.1.14-1.0_armhf.deb
+Checksums-Sha256:
+ 7304a7d396e828931dc4aa56f78e2c4e2092fa882f64226ea3d9e6057e67e6ab 375116 tinc_1.1.14-1.0_armhf.deb
+ 0fd543582f4d85f70e093de1673318238fd016ea662654d6599fe04565cff0dd 856148 tinc-dbg_1.1.14-1.0_armhf.deb
+Files:
+ 92c98673ca81687b1091290c76bcccc8 375116 net optional tinc_1.1.14-1.0_armhf.deb
+ 066ead924ecf5673a19e346c3ba48c94 856148 debug extra tinc-dbg_1.1.14-1.0_armhf.deb
